@@ -1,0 +1,25 @@
+// Here you can add other styles
+.px-3 {
+  position: absolute;
+  right: 0;
+}
+
+//.c-header-toggler.ml-3.d-md-down-none {
+//  width: 256px;
+//  text-align: center;
+//}
+
+.d-md-down-none img {
+  width: 80%;
+  padding: 10px;
+}
+
+.c-main {
+  padding-top: 1em;
+}
+
+@media (min-width: 768px) {
+  .c-main > .container-fluid, .c-main > .container-sm, .c-main > .container-md, .c-main > .container-lg, .c-main > .container-xl {
+    padding: 0 15px;
+  }
+}
